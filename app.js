@@ -3,15 +3,15 @@ window.addEventListener("DOMContentLoaded", () => {
   const gl = canvas.getContext('webgl'); // create a webgl rendering context for canvas
   /*
   =======================================================================
-  the code defines two shader sources:
+  The code defines two shader sources:
 
-  vertex shader
-  fragment shader
+  1- vertex shader
+  2- fragment shader
 
-  the vertex shader is responsible for transforming the input vertex positions
+  The vertex shader is responsible for transforming the input vertex positions.
 
-  the fragment shader is responsible for calculating the color of each 
-  fragment (per pixel) in the rendered image
+  The fragment shader is responsible for calculating the color of each 
+  fragment (per pixel) in the rendered image.
   =======================================================================
   */
 
