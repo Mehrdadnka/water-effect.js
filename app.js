@@ -107,7 +107,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Function to create the shader program
   function createProgram(gl, vertexShader, fragmentShader) {
-    var program = gl.createProgram(); // creates a shader program object
+    const program = gl.createProgram(); // creates a shader program object
     // Attaches shader parameters (vertex shader and fragment shader) to the program
     gl.attachShader(program, vertexShader); 
     gl.attachShader(program, fragmentShader); 
